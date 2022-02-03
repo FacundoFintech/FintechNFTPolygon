@@ -1,0 +1,388 @@
+
+
+.page-subsection{
+    color: red;
+}
+
+/* .container-site{
+    margin-left: 6rem !important;
+    margin-right: 6rem !important;
+} */
+
+.container-site > div {
+    width: 100%;
+    margin-left: 0;
+}
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root{
+    border-radius: 20px;
+}
+
+th{
+    background-color: #663DBD;
+    color: white !important;
+    text-align: center;   
+}
+
+.tHead {
+    font-weight: bold !important;
+}
+
+.table-style{
+    border-radius: 10px !important;
+}
+
+.btn-addFintech{
+    background-color: #653DBD !important;
+    text-align: center !important;
+    width: 100%;
+    border-radius: 10px !important;
+    flex: auto;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1 !important;
+    color: white !important;
+}
+
+
+
+.btn-verNFT{
+    background-color: #653DBD !important;
+    color: white !important;
+    border: 1px solid #653DBD !important;
+    padding: 2px 11px !important;
+}
+
+.btn-danger{
+    padding: 2px 11px !important;
+}
+
+.btn-verNFT:hover{
+    background-color: #8b79b3 !important; 
+    color: white !important;   
+}
+
+.btn-link-verNFT{
+    color: white !important;
+}
+
+.btn-link-verNFT:hover{
+    color: white !important;
+}
+
+.btn-form-item{
+    text-align: center;
+
+}
+
+.css-1t6e9jv-MuiCardActions-root{
+    display: block !important;
+}
+
+
+/* ACA ARRANCA EL FORM DE MINTER */
+
+.mint_token_form {
+    
+    margin-top: 30px !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.contentCopy{
+    color: #663DBD;
+}
+
+.card-content{
+    background-color: #f7f1fb !important;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    border-radius: 10px !important;
+}
+
+
+.card-div{
+    padding-top: 6rem;
+}
+
+.title-gestion{
+    text-align: center;
+    color: #663DBD;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    padding-bottom: 1rem;
+}
+
+.icon-gestion{
+    font-size: 3rem !important;
+   
+}
+
+.inputs{
+    border-radius: 10px !important;
+}
+
+.nfts-quantity{
+    color: #663DBD !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+.ordenar-por{
+    /* margin-left: 1rem; */
+    font-size: 16px;
+}
+
+.grid-order{
+    align-items: center;
+}
+
+.grid-order-child.primero {
+    margin-right: 1rem;
+}
+
+.separador{
+    flex-grow: 1;
+}
+
+.filter{
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+    border-style: none !important;
+    background-color: rgb(235, 235, 235);
+}
+
+.icons{
+    color: #663DBD !important;
+    font-size: 2rem;
+}
+
+
+
+.pagination{
+    padding-top: 1rem !important;
+    text-align: center !important;
+    display: block !important;
+}
+.stack{
+    display: inline-block !important;
+    margin-left: 0px !important;
+}
+
+.card-details{
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 10px !important;
+}
+
+.card-buttons{
+    width: 100% !important;
+    text-align: center !important;
+    display: flex !important;
+    justify-content: space-between;
+    align-content: flex-end;
+  
+}
+
+.pdf-icon{
+    color: white;
+    width: 50px !important;
+    height: 50px !important;
+    padding: 10px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.title-details{
+    color: #663DBD;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    padding-bottom: 1rem;
+}
+
+.info-details{
+    color: #663DBD;
+    font-size: 14px;
+}
+
+.info-details-data{
+    color: black;
+    font-size: 14px;
+}
+.wrap-columna-montos{
+    margin-top: 3rem;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+.columna-montos{
+    text-align: center;
+    align-items: center;
+    margin: 0.3rem;
+    padding: 1rem;
+    background-color: #e2e2e2;
+    border-radius: 10px;
+}
+
+.bank-icon{
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.form-input{
+    border: none !important;
+    border-bottom: 1px solid #663DBD !important;
+    font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+    width: 100% !important;
+}
+
+.form-input:placeholder-shown {
+    color:red;
+}
+
+.form-input::-webkit-input-placeholder{
+    color:red;
+}
+.form-input:-moz-placeholder {
+    color:red;
+}
+
+.button-input{
+    background-color: #663DBD !important;
+    width: 100% !important;
+    border-radius: 10px !important;
+    border: none !important;
+}
+
+.hidden{
+    display: none;
+}
+
+.label-input{
+    background-color: #663DBD;
+    width: 100% !important;
+    text-align: center !important;
+    border: 1px solid #663DBD;
+    border-radius: 10px ;
+    color: #663DBD;
+    font-weight: bold;
+    padding: 3px;
+    margin-bottom: 10px;
+
+}
+
+.label-input:hover{
+    background-color: #663DBD !important;
+    width: 100% !important;
+    text-align: center !important;
+    border: 1px solid #663DBD;
+    border-radius: 10px ;
+    color: #a6a0b3;
+    font-weight: bold;
+    padding: 3px;
+    margin-bottom: 10px;
+
+}
+
+
+.btn-link-pdf{
+    background-color: #bd3d3d !important;
+    color: white !important;
+    margin-right: 2px !important;
+    padding: 1px 5px !important;
+}
+
+.btn-link-transfer{
+    background-color: #663DBD !important;
+    color: white !important;
+    padding: 1px 5px 1px 5px !important;
+
+}
+
+.monto{
+    font-size: 25px;
+}
+
+.monto-money{
+    font-size: 25px;
+}
+
+.modal-content{
+    border-radius: 10px !important;
+    border: none !important;
+   
+}
+
+.modal-title{
+    width: 100% !important;
+    text-align: center !important;
+    color: #663DBD;
+}
+.modal-body{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.modal-footer{
+    width: 100% !important;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+.css-678bp8-MuiStack-root{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+.button-transfer{
+    background-color: #663DBD !important;
+    padding: 25px !important;
+}
+.btn-modal{
+
+   background-color: #663DBD !important;
+    width: 80% !important;
+    color: white !important;
+}
+
+.btn-modal-close{
+
+    background-color: #c6c6c6 !important;
+     width: 80% !important;
+     color: white !important;
+ }
+
+ .modal-p{
+     font-size: 18px !important;
+     color: #a6a0b3 !important;
+ }
+
+ .css-11bfvty-MuiToolbar-root-MuiTablePagination-toolbar{
+     align-items: baseline !important;
+ }
+
+ .pagination-fintech{
+    padding-top: 1rem !important;
+    text-align: center !important;
+    display: block !important;
+ }
+
+ .css-o69gx8-MuiCardMedia-root{
+     width: auto !important;
+ }
