@@ -1,0 +1,413 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+#body{
+  background-color:#f0f2f5;
+}
+
+div{
+  font-family: Roboto, sans-serif;
+  display: block;
+}
+
+a{
+  text-decoration: none !important; 
+}
+
+/*navbar*/
+.mi-navbar{
+  height: 80px;
+}
+
+#mi-navbar{
+  background: red;
+}
+
+.logo-fintech{
+  margin-left: 32px;
+}
+
+.links-nav{
+  margin-left: 30px;
+}
+.link-nav{
+  margin-left: 30px;
+  color: #000000CC;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+/* 
+#connect-wallet{
+  width: 210px;
+  background-color: #0167B3;
+  border-radius: 0.9rem;
+  border: 0px;
+  margin-right: 50px;
+} */
+#connect-wallet{
+  height: 42px;
+  padding: 0px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  border-radius: 12px;
+  border: 0px;
+  background-color: rgb(244, 244, 244);
+  cursor: pointer;
+  margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+p{
+  font-size: 17px;
+  font-weight: 700;
+  font-family: Roboto, sans-serif;
+  color: rgb(47, 202, 230);
+  margin-bottom: 0 !important;
+}
+
+/* icono al lado del address */
+#canvasicon{
+  border-radius: 30px;
+  margin-left: 5px;
+}
+
+#frmtBalance{
+  font-size: 17px;
+  font-weight: 700;
+  font-family: Roboto, sans-serif;
+  color: #000000D6;
+  margin-right: 22px;
+}
+
+#nav-container{
+  width: 100%;
+  margin: 0;
+  max-width: 100%;
+}
+
+.campana{
+  margin-right: 40px;
+}
+
+.address-meta{
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+#ethaddress{
+  font-size: 1rem;
+  margin: 0;
+}
+
+
+/*A PARTIR DE ACA ES LO DEL BOILERPLATE CON ANTD*/
+.ant-card{
+  margin: 0 0 100px 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum', "tnum";
+  position: relative;
+  background: #fff;
+}
+
+.ant-card-head{
+  min-height: 48px;
+  margin-bottom: -1px;
+  padding: 0 24px;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+  font-size: 16px;
+  background: transparent;
+  border-bottom: 1px solid #f0f0f0;
+  border-radius: 2px 2px 0 0;
+}
+
+.ant-card-head-title{
+  flex: 1 1;
+  padding: 16px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ant-card-body {
+  padding: 24px;
+}
+
+.ant-layout, .ant-layout * {
+  box-sizing: border-box;
+}
+
+.ant-card-small > .ant-card-head {
+  min-height: 36px;
+  padding: 0 12px;
+  font-size: 14px;
+}
+
+.ant-card-head::before {
+  display: table;
+  content: '';
+}
+
+.ant-card-head::after {
+  display: table;
+  clear: both;
+  content: '';
+}
+
+.ant-card-body::before {
+  display: table;
+  content: '';
+}
+
+.ant-card-body::after {
+  display: table;
+  clear: both;
+  content: '';
+}
+
+.ant-btn > span {
+  display: inline-block;
+}
+
+
+.ant-btn-primary {
+    color: #fff;
+    border-color: #1890ff;
+    background: #1890ff;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+}
+
+.ant-btn {
+  line-height: 1.5715;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 0 rgb(0 0 0 / 2%);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  user-select: none;
+  touch-action: manipulation;
+  height: 32px;
+  padding: 4px 15px;
+  font-size: 14px;
+  border-radius: 2px;
+  color: #fff;
+  border-color: #1890ff;
+  background: #1890ff;
+}
+
+.ant-card-bordered {
+  border: 1px solid #f0f0f0;
+}
+
+.ant-card-small > .ant-card-body {
+  padding: 12px;
+}
+
+.ant-card-small > .ant-card-head > .ant-card-head-wrapper > .ant-card-head-title {
+  padding: 8px 0;
+}
+
+.ant-form {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum', "tnum";
+}
+
+.ant-form-vertical .ant-form-item-label > label, .ant-col-24.ant-form-item-label > label, .ant-col-xl-24.ant-form-item-label > label {
+  margin: 0;
+}
+
+.ant-form-vertical .ant-form-item-label > label {
+  height: auto;
+}
+
+.ant-form-item-label > label {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  height: 32px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+}
+
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+  display: inline-block;
+  margin-right: 4px;
+  color: #ff4d4f;
+  font-size: 14px;
+  font-family: SimSun, sans-serif;
+  line-height: 1;
+  content: '*';
+}
+
+.ant-input{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-variant: tabular-nums;
+  list-style: none;
+  font-feature-settings: 'tnum', "tnum";
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: 0;
+  padding: 4px 11px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  line-height: 1.5715;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+
+.ant-form-vertical .ant-form-item-label, .ant-col-24.ant-form-item-label, .ant-col-xl-24.ant-form-item-label {
+  padding: 0 0 8px;
+  line-height: 1.5715;
+  white-space: initial;
+  text-align: left;
+}
+
+/*seccion start*/
+#nav-container-start{
+  background: transparent;
+  z-index: 1;
+}
+
+#start-navbar{
+  background: transparent;
+  z-index: 1;
+}
+
+#logo-start{
+  position:absolute;
+  top:0;
+  left:0;
+  margin: 5px 0 0 100px;
+}
+
+#start-connect{
+  height: 37px;
+  padding: 0px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  border-radius: 12px;
+  border: 0px;
+  background-color: #6c55d6;
+  cursor: pointer;
+  margin: 32px 100px 0 0;
+  z-index:1;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+button p {
+  color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+#circulo-container{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.circulo-container{
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: -25px;
+}
+
+.fondo-redondo{
+  z-index: -1;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+#blockchain-design{
+  margin-right: 80px;
+  margin-top: 70px;
+}
+
+
+/*Texto principal seccion start*/
+#acceso-nft{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  text-align: center;
+  color: rgba(58, 54, 54, 0.85);
+  display: flex;
+  justify-content: left;
+}
+
+#texto-start{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#login-start{
+  height: 47px;
+  padding: 0px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  border-radius: 6px;
+  border: 0px;
+  background-color: #6c55d6;
+  cursor: pointer;
+  z-index:1;
+  margin-top: 30px;
+}
+
+#login-text{
+  color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+#start-container{
+  display: flex;
+  justify-content: left;
+  margin: 200px 0 0 80px;
+}
