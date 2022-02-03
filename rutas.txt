@@ -1,0 +1,7 @@
+/               - todos
+/fintechlist    - owner
+/minterlist     - owner - financieras
+/mintnft        - todos 
+/gridnft        - financieras - owner
+/nft-list/:id   - financieras - owner
+/nft-detail/:id - financieras - owner 
